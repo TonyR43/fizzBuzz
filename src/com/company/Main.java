@@ -41,5 +41,8 @@ public class Main {
         System.out.println("\n Short but messy solution");
         for(int i=1;i<=100; i++)
             System.out.println((i % 3 > 0 ? "" : "Fizz") + (i % 5 > 0 ? i % 3 > 0 ? i : "" : "Buzz"));
+
+        System.out.println("Test Version");
+        for (int i = 0; i <= 100; i++)
     }
 }
